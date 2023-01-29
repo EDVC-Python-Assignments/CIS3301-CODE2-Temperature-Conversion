@@ -19,12 +19,14 @@ You are instructed to do all the code in the main function. As an extra challeng
   * **"Please enter the temperature in F you want to convert: "** (note the space after the colon)
 * Display menu for conversion
   * **"Please select the unit of temperature you want to convert to"**
-  * **"1) Celsius"**
-  * **"2) Kelvin"**
+  * **"\na) Celsius"**
+  * **"b) Kelvin"**
 * Request the user their option from the menu
   * **"\nPlease enter your option: "** (note the space after the colon)
 * Return the user to the temperature converted to the desired scale
   * For Celsius, use the following message
-    * **"x in Fahrenheit is y in Celsius"** (replace x and y with the appropriate values)
+    * **"\nx in Fahrenheit is y in Celsius"** (replace x and y with the appropriate values)
   * For Kelvin, use the following message
-    * **"x in Fahrenheit is y in Kelvin"** (replace x and y with the appropriate values)
+    * **"\nx in Fahrenheit is y in Kelvin"** (replace x and y with the appropriate values)
+* Return the user a message if they chose an invalid option
+  * **"\nSorry, unfortunately x option is not valid"** (replace x with option entered by user)
